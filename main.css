@@ -1,0 +1,100 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header{
+    height: 200px;
+    background-color: gray;
+    
+}
+
+.header_inner{
+    width:80%;
+    background: indigo;
+    margin: auto;
+}
+div.header{
+    height: 30px;
+    background-color: #00879e;
+    margin:0px;
+    padding: 0px;
+}
+
+/* style shared with nav.left and nav.right */
+nav.left, nav.right{
+
+    height: 100%;
+    width: 40%;
+    background: #000;
+    padding: 0px;
+    margin: 0;
+}
+
+/* sepicefic styles for navigation left */
+ nav.left{
+    /* float:left; */
+
+}
+/* sepicefic styles for navigation right */
+nav.right{
+    /* float: right; */
+}
+/* styles for right navigations */
+ul.header-right{
+    float: right;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+}
+/* styles for left navigations */
+
+ul.header-left{
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+}
+ul.header-left li,ul.header-right li{
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    border-left:1px solid cyan;
+}
+
+/* link style to button */
+.linkleft{
+    text-decoration: none;
+    padding:2px 6px;
+    color:seashell;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+/* styles for banner logos */
+.banner{
+    background: cyan;
+}
+
+
+
+.logo{
+    text-align: center;
+    background:green;
+    width:50%;
+    float:right;
+}
+
+.ads{
+    background: red;
+    height: 100px;
+    width:50%;
+    float:left;
+}
